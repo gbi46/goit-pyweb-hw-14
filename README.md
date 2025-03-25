@@ -8,7 +8,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 run terminal 1:
-unicorn main:app --reload --port 8001
+uvicorn main:app --reload --port 8001
 
 run terminal 2:
 python -m unittest discover unit_tests
