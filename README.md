@@ -1,5 +1,5 @@
 # goit-pyweb-hw-14
-run project
+run project:
 
 python3 -m venv venv
 
